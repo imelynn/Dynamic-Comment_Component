@@ -4,10 +4,17 @@
         <title>Gena Comment App</title>
 
     </head>
-    <body>
+    <body onload = "getCommentByID()">
       <div id="app">
 
       </div>
+
+      <div class="App__container" id="app2">
+        <div>Count: <span id="display">0</span></div>
+      
+        <button onclick="incCountUp()">+Count</button>
+      </div>
+
       <!--<div id="webheader"><h1>My Comment Component App</h1></div>
         <div class = "result-grid" id = "result-grid">
           <div class="inputinfo">

@@ -1,74 +1,82 @@
 body {
     background-color: black;
   }
-  #overall{
-    background-color: black;
-    
-    color: aquamarine;
-    }
-
-    #webheader{
+    #header{
       margin-inline-start: 400px;
+      font-size: 25px;
     }
 
-    .result-grid{
+.result-grid{
+      float: left;
       width: 1200px;
        background-color: black;
-       display: flex;
        margin: 2rem;
             
     }
 
 .inputinfo{
     background-color: black;
-    margin: 2rem;
-    margin-left: 100px;
-    padding-left: 10px;
-    width: 400px; 
+    float: left;
+    max-width: 400px;
+    height: 350px; 
+    margin-right: 50px;
     border: aquamarine;
     border-style: solid;
     border-width: 20px;
     border-radius: 10px;
-    height: 350px;    
+       
 }
 
-#firstcomp{
-background-color: black; 
-margin: 2rem;
-width: 400px;
-border: aquamarine;
-border-style: solid;
-border-width: 20px;
-border-radius: 10px;
-height: 350px;
-justify-content: center;
-place-items: top;
-color: aquamarine;
-text-align: center;
+#photoholder{
+  background: url("./newyork.jpg");
+  background-repeat: no-repeat;
+  background-size: 450px 400px;
+  float: left;
+  width: 400px;
+  height: 350px;
+  margin-left: 50px;
+  border: aquamarine;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
 }
-#comcomp {
-background-color: black;
-display: flex;
-margin: 2rem;
-flex-wrap: wrap;
-justify-content: center;
-clear: both;
-width: 300px;
-border: aquamarine;
-border-style: solid;
-border-width: 20px;
-border-radius: 10px;
-height: 350px;
-justify-content: center;
-place-items: top;
-color: aquamarine;
-text-align: center;
-}
-#tempholder{
-display: inline-flex;
-flex-wrap: wrap;
-justify-content: center;
-}
+
+#template {
+  display:inline-flex;
+  margin-top: 50px;
+  margin-left: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 50px;
+  background-color: black;
+  border-color: red;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  height: 350px;
+  color: red;
+  }
+
+  .div1 {
+    display:inline-flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    background-color: black;
+    border-color: red;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    height: 350px;
+    color: red;
+    }
+
+  .name{
+    color: white;
+
+  }
 
 h3{
     color: aquamarine;
@@ -76,9 +84,24 @@ h3{
 
 h1{
   color: aquamarine;
-  text-shadow: 30px black;
 }
 
 h2{
   color: aquamarine;
+}
+
+h4{
+  color: aquamarine;
+}
+
+#display{
+  color:aquamarine
+}
+
+.text-error {
+  color: red;
+}
+
+.text-success {
+  color: green;
 }

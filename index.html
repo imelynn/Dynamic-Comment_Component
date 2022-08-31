@@ -1,51 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Gena Comment App</title>
-
-    </head>
-    <body>
-      <div id="app">
-
-      </div>
-      <!--<div id="webheader"><h1>My Comment Component App</h1></div>
-        <div class = "result-grid" id = "result-grid">
-          <div class="inputinfo">
-            <form id="forminput" action="/">
-            <label for="nameinput"><h3><span>Name: </span></label>
-            <input type="text" id="name" class="name" placeholder="Name" required><br>
-            <label for="emailinput"><h3><span>Email: </span></label>
-            <input type="email" id="email" class="email" placeholder="Email" required>
-            <label for="commentinput"><h3>Enter a Comment:</h3></label>
-            <textarea type="comment" id="comment" class="comment" cols="50" rows="4" required>
-            </textarea>
-            <input type="checkbox" id="checkbox" name="checkbox" checked required>
-            <label id="agree">I agree to terms.</label><br><br>
-            <button type="submit" id="send" name="send">Post My Comment</button>
-          </form></div>   
-      </div>
-</div><br>
-
-    <div id=comcomp>
-        <geelynn-comment>
-        <h1>name="Gena"</h1>
-        <h3>email="gena.hurst@gmail.com"</h3>
-        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
-      </geelynn-comment>
-</div>
-      <div id=comcomp>
-        <geelynn-comment>
-        <h1>name="Gena"</h1>
-        <h3>email="gena.hurst@gmail.com"</h3>
-        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
-      </geelynn-comment>
-</div>
-      <div id=comcomp>
-        <geelynn-comment>
-        <h1>username="Gena"</h1>
-        <h3>email="gena.hurst@gmail.com"</h3>
-        <h2>quote="Superior Attitude, Superior State of Mind!"</h2>
-      </geelynn-comment><!-->
-      <script type="module" src="./main.js"></script>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./js/main.js"></script>
+    <title>Commenting Application</title>
+  </head>
+  <body>
+    <div id="app">
+      <form class='comment-form'>
+        <label for="name">Name: </label>
+        <input type="text" id='name'>
+        <label for="email">Email: </label>
+        <input type="text" id='email'>
+        <label for="new-comment-field">Comment: </label>
+        <input type="text" id='new-comment-field'/>
+        <button type='submit'>Post</button>
+      </form>
+    </div>
+    <div class='comments'></div>
+  </body>
 </html>
